@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lottie Animation Preview</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #121212;
+    }
+    lottie-player {
+      width: 90vw;
+      max-width: 600px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <lottie-player 
+    src="bot_vectorized.json" 
+    background="transparent" 
+    speed="1" 
+    loop 
+    autoplay 
+    controls>
+  </lottie-player>
+</body>
+</html>
